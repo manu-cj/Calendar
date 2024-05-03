@@ -1,0 +1,50 @@
+body {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    font-weight: bolder;
+    font-size: 40px;
+
+    .content-div {
+        width: 400px;
+        height: 400px;
+    }
+    .month-div {
+        width: 100%;
+        height: 20%;
+        background-color: tomato;
+        color: white;
+        border-top-left-radius: 100%;
+        border-top-right-radius:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .main-div {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: space-around;
+    }
+    .year-div {
+        width: 100%;
+        height: 20%;
+        background-color: tomato;
+        color: white;
+        border-bottom-left-radius: 75%;
+        border-bottom-right-radius: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
